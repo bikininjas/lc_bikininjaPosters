@@ -2,10 +2,12 @@ documentation:
 - changed-files:
   - any-glob-to-any-file: '**/*.md'
 
-audio:
+posters:
 - changed-files:
   - any-glob-to-any-file: 
-    - 'BepInEx/plugins/CustomSounds/bikininjaSounds/**'
+    - 'BepInEx/plugins/LethalPaintings/paintings/*.png'
+    - 'BepInEx/plugins/LethalPosters/posters/*.png'
+    - 'BepInEx/plugins/LethalPosters/tips/*.png'
 
 cicd:
 - changed-files:
