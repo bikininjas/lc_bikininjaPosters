@@ -6,8 +6,8 @@ on:
     types: released
 
 env:
-  description: "Bikininjas Sounds with french people voices and memes"
-  mod_name: "BikininjasSounds"
+  description: "Bikininjas Custom Posters with french people voices and memes"
+  mod_name: "BikininjasCustomPosters"
   website_url: "https://github.com/${{ github.repository }}"
 
 jobs:
