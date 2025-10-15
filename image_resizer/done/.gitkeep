@@ -1,0 +1,2 @@
+# This file ensures the done/ directory is tracked by git
+# Processed media files will be moved here after successful processing

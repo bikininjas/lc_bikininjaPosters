@@ -71,3 +71,29 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Image Resizer - Input and Done directories (media files)
+image_resizer/input/*
+!image_resizer/input/README.md
+!image_resizer/input/.gitkeep
+image_resizer/done/*
+!image_resizer/done/.gitkeep
+image_resizer/temp-*.mp4
+image_resizer/temp-audio.m4a
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+image_resizer/venv/
+image_resizer/.venv/
+image_resizer/env/
