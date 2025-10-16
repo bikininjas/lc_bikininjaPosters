@@ -5,9 +5,8 @@ documentation:
 posters:
 - changed-files:
   - any-glob-to-any-file: 
-    - 'BepInEx/plugins/LethalPaintings/paintings/*.png'
-    - 'BepInEx/plugins/LethalPosters/posters/*.png'
-    - 'BepInEx/plugins/LethalPosters/tips/*.png'
+    - 'BepInEx/plugins/BikininjasPosters*/posters/**'
+    - 'BepInEx/plugins/BikininjasPosters*/tips/**'
 
 cicd:
 - changed-files:
