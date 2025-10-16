@@ -104,6 +104,9 @@ jobs:
           outputFile: "CHANGELOG.MD"
           token: ${{ secrets.GITHUB_TOKEN }}
           mode: "COMMIT"
+          failOnError: false
+          ignorePreReleases: false
+          fetchViaCommits: true
           configurationJson: |
             {
               "template": "#{{CHANGELOG}}\n\n<details>\n<summary>Uncategorized</summary>\n\n#{{UNCATEGORIZED}}\n</details>",
