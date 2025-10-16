@@ -1,0 +1,14 @@
+Poster Pack: BikininjasPosters01
+==================================================
+
+Contents:
+  Poster1: Retailleau01.jpg
+  Poster2: Macron-Lecornu01.jpg
+  Poster3: Boutin02.jpg
+  Poster4: MarineLePen01.jpg
+  Poster5: MarineLePen02.jpg
+  CustomTips: Boutin01.avif
+
+Installation:
+  Copy the 'BikininjasPosters01' folder to:
+  Lethal Company/BepInEx/plugins/

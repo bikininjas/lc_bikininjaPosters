@@ -1,0 +1,14 @@
+Poster Pack: BikininjasPosters02
+==================================================
+
+Contents:
+  Poster1: Poutine01.jpg
+  Poster2: Sarko02.avif
+  Poster3: Sarko01.jpg
+  Poster4: Macron01.jpg
+  Poster5: Trump01.jpg
+  CustomTips: Bardella01.webp
+
+Installation:
+  Copy the 'BikininjasPosters02' folder to:
+  Lethal Company/BepInEx/plugins/
