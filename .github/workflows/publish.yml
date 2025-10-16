@@ -47,4 +47,4 @@ jobs:
           website: ${{ env.website_url }}
           repo: thunderstore.io
           categories: |
-            asset-replacement
+            posters
