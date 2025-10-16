@@ -46,5 +46,3 @@ jobs:
             seechela-CustomPosters-3.2.0
           website: ${{ env.website_url }}
           repo: thunderstore.io
-          categories: |
-            posters
