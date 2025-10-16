@@ -2,52 +2,53 @@
 
 Place your **images and videos** here for processing!
 
-## Supported Image Formats
-- .jpg, .jpeg
-- .png  
-- .bmp
-- .gif
-- .tiff
-- .webp
+## Supported Formats
 
-## Supported Video Formats (NEW! 🎬)
-- .mp4
-- .avi
-- .mov
-- .mkv
-- .flv
-- .wmv
-- .webm
-- .m4v
-- .mpeg, .mpg
+**Images**: `.jpg` `.jpeg` `.png` `.bmp` `.gif` `.tiff` `.webp` `.avif`  
+**Videos**: `.mp4` `.avi` `.mov` `.mkv` `.flv` `.wmv` `.webm` `.m4v`
 
-**All video formats are automatically converted to MP4!**
+All video formats are automatically converted to MP4!
 
-The script will resize them to the CustomPosters mod specifications and output them with the correct filenames and formats.
+## How It Works
 
-## Example Files You Might Add
-- landscape_poster.jpg
-- cool_animation.mp4 (for Poster2 - it supports video!)
-- portrait_artwork.png
-- custom_tip_image.jpeg
-- intro_video.avi
+Each file you add will be:
+1. **Resized** to appropriate dimensions (cycling through 5 standard sizes)
+2. **Saved to 3 locations** with the same name:
+   - `posters/` - for in-game wall decorations
+   - `tips/` - for in-game loading screens  
+   - `output/` - for additional processing
+3. **Moved to done/** after successful processing
 
-## After Processing
-Successfully processed files will be **automatically moved** to the `done/` directory.
+## Example
+
+```
+Input:
+  input/cat.jpg
+  input/dog.png
+  input/video.mp4
+
+Output (9 files total):
+  posters/Poster1.png, Poster2.jpg, Poster3.mp4
+  tips/Poster1.png, Poster2.jpg, Poster3.mp4
+  output/Poster1.png, Poster2.jpg, Poster3.mp4
+  
+Cleanup:
+  done/cat.jpg, done/dog.png, done/video.mp4
+```
 
 ## Usage
-After adding your media files, run:
+
 ```bash
+# Activate virtual environment
 cd ..
+source venv/bin/activate
+
+# Run the script (fully automatic)
 python poster_resizer.py
+
+# Deactivate when done
+deactivate
 ```
 
-Or use the example script:
-```bash
-cd ..
-./run_example.sh
-```
-
-## Git Ignore
-Media files in this directory are ignored by git (won't be committed to the repository).
-Only the directory structure is tracked.
+## Git Note
+Media files in this directory are ignored by git. Only the directory structure is tracked.
